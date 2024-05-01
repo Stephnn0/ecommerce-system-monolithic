@@ -1,0 +1,7 @@
+{
+    "server": {
+      "env": "development",
+      "port": 3000
+
+    }
+  }

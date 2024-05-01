@@ -1,0 +1,52 @@
+{
+  "name": "crud-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc",
+    "tsc": "tsc",
+    "dev": "nodemon dist/app.js",
+    "start": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.537.0",
+    "@aws-sdk/s3-request-presigner": "^3.537.0",
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "config": "^3.3.11",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "envalid": "^8.0.0",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.2.0",
+    "http-status": "^1.7.3",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.6.5",
+    "pino": "^8.20.0",
+    "randombytes": "^2.1.0",
+    "socket.io": "^4.7.3",
+    "stripe": "^14.22.0",
+    "typescript": "^5.3.3",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/config": "^3.3.4",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/multer": "^1.4.11",
+    "@types/randombytes": "^2.0.3",
+    "@types/sqlstring": "^2.3.2",
+    "@types/uuid": "^9.0.8",
+    "nodemon": "^3.0.2",
+    "pino-pretty": "^11.0.0"
+  }
+}
